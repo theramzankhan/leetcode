@@ -1,27 +1,3 @@
-// class Solution {
-// public:
-//     int addDigits(int num) {
-//         int sum = 0;
-//         int res = 0;
-//         int ans = 0;
-//         while(num > 0) {
-//             sum += num % 10;
-//             num /= 10;
-//           }
-//         while(sum > 0) {
-//             res += sum % 10;
-//             sum /= 10;
-//           }
-//         while(res > 0) {
-//             ans += res % 10;
-//             res /= 10;
-//           }
-        
-//         return ans;
-//     }
-// };
-
-
 class Solution {
     public int addDigits(int num) {
         int rem=0,sum=0;
@@ -75,6 +51,7 @@ class Solution {
 //         0  -> 0
         
 
+//other way to solve
 // class Solution {
 //     public int addDigits(int num) {
 //         int rem=0,sum=0;
@@ -90,6 +67,7 @@ class Solution {
 // }
 
 
+//other way to solve
 // class Solution {
 //     public int addDigits(int num) {
 //         if(num == 0) return 0;
