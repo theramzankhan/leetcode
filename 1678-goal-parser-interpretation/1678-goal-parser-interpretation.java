@@ -11,7 +11,6 @@ class Solution {
                 res += "al";
                 i=i+3;
             }
-            
             else {
                 res += command.charAt(i);
             }
@@ -20,3 +19,22 @@ class Solution {
         return res;
     }
 }
+
+
+//other ways
+// class Solution {
+//     public String interpret(String command) {
+//         return command.replace("()","o").replace("(al)","al");
+//     }
+// }
+
+
+// class Solution {
+//     public String interpret(String command) {
+//      command = command.replace("()","o");
+//      command = command.replace("(","");
+//      command = command.replace(")","");
+ 
+//        return command;
+//     }
+// }
